@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: IRANYEKAN;
+  src: url("../../fonts/IRANSansWeb-Light.eot");
+  src: url("../../fonts/IRANSansWeb-Light.ttf");
+  src: url("../../fonts/IRANSansWeb-Light.woff");
+  src: url("../../fonts/IRANSansWeb-Light.woff2");
+}
+@layer components {
+  * {
+    direction: rtl;
+  }
+}
+
+@layer components {
+  .moon_btn {
+    @apply fill-[black] fixed bottom-[20px] left-[20px];
+  }
+  .sun_btn {
+    @apply fill-[gray] fixed bottom-[20px] left-[20px];
+  }
+  .header {
+    @apply mb:w-[100%] mb:h-[175px] mb:bg-[#242424] dt:w-[100%] dt:bg-[#242424] dt:h-[100px] dark:bg-[#231031];
+  }
+  .main_menu {
+    @apply hover:text-[#eeeded] transition-all duration-300 ease-linear;
+  }
+  .hamburger {
+    @apply w-[40px] h-[40px] fill-[#b6b6c4] dark:fill-[#b6b6c4];
+  }
+  .logo {
+    @apply mb:top-[10px] fixed z-10 dt:top-[50px] dt:right-[150px];
+  }
+  .menu {
+    @apply dt:flex dt:justify-center dt:items-center dt:w-[100%] dt:h-[100px] dt:text-[#a1a1aa] dt:gap-[15px] font-[IRANYEKAN] text-[16px] pr-[120px] dark:text-[#a1a1aa] mb:hidden pt-[20px] relative;
+  }
+  .mobile__menu {
+    @apply dt:hidden mb:top-[130px] mb:right-[35px] fixed;
+  }
+  .banner {
+    @apply bg-gradient-to-b from-[#FAFAFA] to-[#D3D3D3] w-[100%] dt:h-[400px] mb:h-[550px] flex dt:flex-row	 mb:justify-center mb:items-center mb:flex-col dark:bg-gradient-to-b dark:from-slate-300 dark:to-slate-800;
+  }
+  .matne_banner {
+    @apply mb:flex mb:flex-col absolute mb:top-[530px] mb:right-[35px] dt:top-[250px] dt:right-[320px] text-justify;
+  }
+  .first_matn_banner {
+    @apply text-[#FF0000] font-[IRANYEKAN] dt:text-[30px] mb:text-[26px] dt:pl-[50px] pb-[10px] dark:text-[#facc15];
+  }
+  .second_matn_banner {
+    @apply font-[IRANYEKAN] dt:text-[18px] text-[#2b2b2b] dark:text-[#dadada];
+  }
+  .banner_img {
+    @apply dt:pr-[330px] dt:pb-[20px] mb:pb-[60px];
+  }
+  .moarefi {
+    @apply dt:h-[670px] text-justify dt:w-[100%] dt:pt-[50px] mb:h-[750px] mb:pt-[50px];
+  }
+  .main_moarefi {
+    @apply dt:w-[60%] mb:w-[95%] mb:m-auto mb:h-auto mb:pt-[50px] dt:h-[500px] dt:m-auto dt:pt-[50px]  dark:bg-gradient-to-b dark:from-slate-600 dark:to-slate-950 rounded-[15px];
+  }
+  .matne_moarefi {
+    @apply dt:w-[700px] dt:h-[500px] dt:m-auto mb:ml-[30px] mb:mr-[30px] flex gap-[30px] flex-col;
+  }
+  .bande_one {
+    @apply text-[red] dark:text-[#facc15] font-[IRANYEKAN] text-[20px] dt:pt-[20px];
+  }
+  .bande_two {
+    @apply font-[IRANYEKAN] text-[16px] text-[gray] font-normal mb-[10px] dark:hover:text-[#eeeded] transition-all duration-300 ease-linear;
+  }
+  .arl {
+    @apply w-[100%] dt:h-[550px] mb:h-[850px] text-justify;
+  }
+  .main_arl {
+    @apply dt:w-[60%] dt:h-[400px] dt:m-auto flex dt:flex-row dt:gap-[10px] mb:flex-col mb:w-[95%] mb:m-auto mb:h-auto dark:bg-gradient-to-b dark:from-slate-600 dark:to-slate-950 rounded-[15px];
+  }
+  .arl_img {
+    @apply dt:mr-[30px] dt:w-[230px] dt:h-[300px] mb:w-[230px] mb:h-[300px] mb:mr-[20px] dt:mt-[20px] mb:mt-[20px];
+  }
+  .second_arl {
+    @apply dt:w-[500px] dt:mr-[20px] mb:w-[90%] mb:m-auto;
+  }
+  .arl_child_tea_one {
+    @apply flex flex-row dt:gap-[20px] dt:h-[80px] mb:h-[110px];
+  }
+  .arl_child_tea_img_one {
+    @apply w-[69px] h-[62px] dt:mt-[7px] dt:mr-[15px] mb:mt-[38px] mb:mr-[10px];
+  }
+  .arl_child_tea_moatar_one {
+    @apply text-[red] font-[IRANYEKAN] text-[20px] dt:mt-[40px] mb:mt-[70px] mb:mr-[20px] dark:text-[#facc15];
+  }
+  .arl_child_tea_two {
+    @apply flex flex-row gap-[5px] dt:h-[55px] mb:h-[90px] border-y border-gray-400;
+  }
+  .arl_child_tea_geram_two {
+    @apply dt:mt-[15px] dt:mr-[20px] font-[IRANYEKAN] text-[16px] font-bold text-[#4e4e4e] dt:ml-[100px] mb:mt-[10px] mb:mr-[10px] block dark:text-gray-400;
+  }
+  .arl_child_tea_geram_group_two {
+    @apply flex flex-row gap-[5px] mb:pr-[100px];
+  }
+  .arl_child_tea_geram_img_two {
+    @apply w-[50px] h-[45px] dt:mt-[3px] mb:mt-[40px];
+  }
+  .arl_child_tea_three {
+    @apply h-[160px] pt-[20px];
+  }
+  .arl_child_tea_matn_three {
+    @apply font-[IRANYEKAN] text-[18px] text-[#999999] dark:hover:text-[#eeeded] transition-all duration-300 ease-linear;
+  }
+  .arl_child_tea_four {
+    @apply h-[43px] w-[125px] rounded-[10px] border border-gray-400 hover:border-hidden hover:bg-[#ED1C24] transition-all duration-300 ease-linear dark:hover:bg-[#f59e0b] relative bottom-[10px];
+  }
+  .arl_child_tea_matn_four {
+    @apply relative right-[20px] top-[7px] font-[IRANYEKAN] text-[15px] text-gray-500 hover:text-white transition-all duration-300 ease-linear;
+  }
+  .app {
+    @apply w-[100%] h-[100px] bg-[#EEEFEF] flex flex-row justify-center items-center gap-[10px] dark:bg-gradient-to-b dark:from-slate-600 dark:to-slate-950;
+  }
+  .app_pack {
+    @apply w-[50px] h-[50px] cursor-pointer bg-gray-300 flex justify-center items-center rounded-[50%] transition-all duration-300 ease-linear;
+  }
+  .red_line {
+    @apply w-[100%] h-[30px] bg-[#ED1C24] dark:bg-[#f59e0b];
+  }
+  .footer {
+    @apply w-[100%] dt:h-[400px] mb:h-[1300px] bg-[#262626] flex dt:flex-row mb:flex-col dt:justify-center dt:items-center mb:items-center  pt-[20px];
+  }
+  .footer_icon {
+    @apply flex flex-col mb:w-[100%] dt:w-[170px] dt:h-[300px];
+  }
+  .footer_img {
+    @apply dt:mb-[20px] mb:mb-[20px] w-[115px] h-[90px] mr-[16px] mb:m-auto;
+  }
+  .footer_titr {
+    @apply border-y-[1px] border-y-[#898989] h-[45px] dt:w-[150px] mb:w-[90%] mb:m-auto leading-[40px] dt:pr-[30px] text-white text-[17px] font-[IRANYEKAN] dt:mb-[30px] mb:mb-[30px];
+  }
+  .footer_option {
+    @apply mb-[10px] text-gray-400 text-[13px] font-[IRANYEKAN] mb:m-auto dt:mx-5 hover:text-gray-100 transition-all duration-300 ease-linear;
+  }
+  .end__footer {
+    @apply w-[100%] h-[100px] bg-[#262626] flex items-center flex-col text-gray-400 text-[13px] font-[IRANYEKAN] pt-[20px];
+  }
+  .four_pack {
+    @apply w-[100%] dt:h-[470px] pt-[60px] border-b-[1px] border-t-[#a7a7a7];
+  }
+  .main_four_pack {
+    @apply dt:w-[70%] mb:w-[90%] dt:h-[350px] mb:mb-[20px] mb:h-[1200px] m-auto rounded-[15px] flex dt:flex-row mb:flex-col gap-[20px] justify-center dark:bg-gradient-to-b dark:from-slate-600 dark:to-slate-950;
+  }
+  .four_pack_img {
+    @apply flex flex-col justify-center;
+  }
+  .four_pack_matn {
+    @apply w-[190] h-[65px] flex justify-center items-center border-b-[1px] border-b-gray-300 dark:border-b-gray-400 text-gray-500 text-[17px] font-[IRANYEKAN] dark:hover:text-[#eeeded] transition-all duration-300 ease-linear dt:mb-[40px];
+  }
+}
