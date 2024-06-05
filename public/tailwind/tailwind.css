@@ -22,7 +22,7 @@
     @apply fill-[gray] fixed bottom-[20px] left-[20px];
   }
   .header {
-    @apply mb:w-[100%] mb:h-[175px] mb:bg-[#242424] dt:w-[100%] dt:bg-[#242424] dt:h-[100px] dark:bg-[#231031];
+    @apply mb:w-[100%] mb:h-[182px] mb:bg-[#242424] dt:w-[100%] dt:bg-[#242424] dt:h-[100px] dark:bg-[#231031];
   }
   .main_menu {
     @apply hover:text-[#eeeded] transition-all duration-300 ease-linear;
@@ -94,10 +94,10 @@
     @apply flex flex-row gap-[5px] dt:h-[55px] mb:h-[90px] border-y border-gray-400;
   }
   .arl_child_tea_geram_two {
-    @apply dt:mt-[15px] dt:mr-[20px] font-[IRANYEKAN] text-[16px] font-bold text-[#4e4e4e] dt:ml-[100px] mb:mt-[10px] mb:mr-[10px] block dark:text-gray-400;
+    @apply dt:mt-[15px] dt:mr-[20px] font-[IRANYEKAN] text-[15px] font-bold text-[#4e4e4e] dt:ml-[130px] mb:mt-[10px] mb:mr-[10px] block dark:text-gray-400 dt:w-[180px] mb:w-[120px];
   }
   .arl_child_tea_geram_group_two {
-    @apply flex flex-row gap-[5px] mb:pr-[100px];
+    @apply flex flex-row gap-[5px];
   }
   .arl_child_tea_geram_img_two {
     @apply w-[50px] h-[45px] dt:mt-[3px] mb:mt-[40px];

@@ -579,7 +579,7 @@ video {
 
 @media (min-width: 380px) {
   .header {
-    height: 175px;
+    height: 182px;
     width: 100%;
     --tw-bg-opacity: 1;
     background-color: rgb(36 36 36 / var(--tw-bg-opacity));
@@ -1068,7 +1068,7 @@ video {
 .arl_child_tea_geram_two {
   display: block;
   font-family: IRANYEKAN;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(78 78 78 / var(--tw-text-opacity));
@@ -1083,6 +1083,7 @@ video {
   .arl_child_tea_geram_two {
     margin-top: 10px;
     margin-right: 10px;
+    width: 120px;
   }
 }
 
@@ -1090,7 +1091,8 @@ video {
   .arl_child_tea_geram_two {
     margin-top: 15px;
     margin-right: 20px;
-    margin-left: 100px;
+    margin-left: 130px;
+    width: 180px;
   }
 }
 
@@ -1098,12 +1100,6 @@ video {
   display: flex;
   flex-direction: row;
   gap: 5px;
-}
-
-@media (min-width: 380px) {
-  .arl_child_tea_geram_group_two {
-    padding-right: 100px;
-  }
 }
 
 .arl_child_tea_geram_img_two {
@@ -1474,10 +1470,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .bottom-\[0px\] {
   bottom: 0px;
 }
@@ -1514,22 +1506,9 @@ video {
   margin: auto;
 }
 
-.-m-\[15px\] {
-  margin: -15px;
-}
-
-.m-\[0px\] {
-  margin: 0px;
-}
-
 .mx-\[15px\] {
   margin-left: 15px;
   margin-right: 15px;
-}
-
-.my-\[15px\] {
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .mb-2 {
@@ -1588,36 +1567,16 @@ video {
   margin-top: 20px;
 }
 
-.mt-\[40px\] {
-  margin-top: 40px;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[15px\] {
-  margin-bottom: 15px;
-}
-
-.mt-\[0\] {
-  margin-top: 0;
-}
-
-.mt-\[25px\] {
-  margin-top: 25px;
-}
-
 .mt-\[23px\] {
   margin-top: 23px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
 .mt-\[30px\] {
   margin-top: 30px;
+}
+
+.mt-\[60px\] {
+  margin-top: 60px;
 }
 
 .block {
@@ -1710,26 +1669,6 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
-}
-
-.w-\[105px\] {
-  width: 105px;
-}
-
-.w-\[120px\] {
-  width: 120px;
-}
-
-.w-\[133px\] {
-  width: 133px;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
-.w-\[145px\] {
-  width: 145px;
 }
 
 .w-\[150px\] {
@@ -1924,11 +1863,6 @@ video {
   padding-bottom: 0.625rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
@@ -1951,14 +1885,6 @@ video {
 
 .pt-\[8px\] {
   padding-top: 8px;
-}
-
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
-.pt-\[40px\] {
-  padding-top: 40px;
 }
 
 .text-justify {
@@ -2004,21 +1930,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -2087,10 +1998,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .opacity-0 {
@@ -2359,28 +2266,20 @@ video {
     margin-bottom: 20px;
   }
 
-  .mb\:mt-\[5px\] {
-    margin-top: 5px;
-  }
-
-  .mb\:ml-\[10px\] {
-    margin-left: 10px;
-  }
-
-  .mb\:ml-\[20px\] {
-    margin-left: 20px;
-  }
-
   .mb\:ml-\[30px\] {
     margin-left: 30px;
   }
 
-  .mb\:mb-\[\] {
-    margin-bottom: ;
+  .mb\:mt-\[5px\] {
+    margin-top: 5px;
   }
 
-  .mb\:mb-\[50px\] {
-    margin-bottom: 50px;
+  .mb\:mt-\[60px\] {
+    margin-top: 60px;
+  }
+
+  .mb\:mt-\[20px\] {
+    margin-top: 20px;
   }
 
   .mb\:h-\[1600px\] {
@@ -2443,18 +2342,6 @@ video {
     padding-top: 400px;
   }
 
-  .mb\:pb-\[40px\] {
-    padding-bottom: 40px;
-  }
-
-  .mb\:pt-\[\] {
-    padding-top: ;
-  }
-
-  .mb\:pt-\[60px\] {
-    padding-top: 60px;
-  }
-
   .mb\:pt-\[70px\] {
     padding-top: 70px;
   }
@@ -2497,6 +2384,14 @@ video {
 
   .dt\:mt-\[10px\] {
     margin-top: 10px;
+  }
+
+  .dt\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .dt\:mt-\[1px\] {
+    margin-top: 1px;
   }
 
   .dt\:h-\[100px\] {
@@ -2581,10 +2476,6 @@ video {
 
   .dt\:pt-\[0px\] {
     padding-top: 0px;
-  }
-
-  .dt\:pt-\[40px\] {
-    padding-top: 40px;
   }
 
   .dt\:pt-\[20px\] {
